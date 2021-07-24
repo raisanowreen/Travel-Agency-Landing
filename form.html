@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+    <style>
+        * {
+            background-color: pink;
+        }
+
+        .form {
+            border: 5px solid purple;
+            text-align: center;
+            margin-top: 200px;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+
+        .form-two {
+            border: 5px solid purple;
+            margin-top: 100px;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+
+
+        .form input {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: red;
+            border: none;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="form">
+        <h1>Fill out your Booking</h1>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="fname" placeholder="First name">
+            <input type="lname" placeholder="Last name"> <br>
+            <label for="name">Select Date</label>
+            <input type="date"> <br>
+            <label for="name">Phone Number</label>
+            <input type="number"> <br>
+            <label for="name">Email Address</label>
+            <input type="email"> <br>
+            <label for="name">Password</label>
+            <input type="password"> <br>
+            <input class="button" type="submit">
+
+        </form>
+    </section>
+    <section>
+        <fieldset class="form-two">
+            <legend>Information</legend>
+            <label for="">Travelling with:</label> <br>
+            <p> <input type="checkbox" name="choose">Alone</p>
+            <p> <input type="checkbox" name="choose">Spouse</p>
+            <p> <input type="checkbox" name="choose">Kids</p>
+            <p> <input type="checkbox" name="choose">Parents</p>
+            <p> <input type="checkbox" name="choose">Friends</p>
+            <p> <input type="checkbox" name="choose">Colleagues</p>
+            <label for="">You are staying:</label> <br>
+            <p> <input type="radio" name="choose">Less than one day</p>
+            <p> <input type="radio" name="choose">Less than three days</p>
+            <p> <input type="radio" name="choose">More than week</p>
+            <p> <input type="radio" name="choose">More than month</p>
+            <input class="button" type="submit">
+            <input class="button" type="reset">
+
+        </fieldset>
+    </section>
+</body>
+
+</html>

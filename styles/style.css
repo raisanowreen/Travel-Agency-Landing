@@ -1,10 +1,12 @@
 main {
     scroll-behavior: smooth;
 }
+/* navbar styles */
 nav {
     display: flex;
     justify-content: space-between;
     margin: 0;
+    overflow: hidden;
 }
 .top-banner {
     background-image: url(image/Decor.png);
@@ -17,7 +19,6 @@ ul {
     list-style-type: none;
   margin:0;
   padding-right: 50px;
-  overflow: hidden;
 }
 ul, li {
     margin-top: 8px;
@@ -26,8 +27,8 @@ ul, li {
 }
 li:hover {
     border: 2px solid grey;
-    overflow: hidden;
 }
+/* intro styles */
 .intro {
     display: flex;
     margin-left: 40px;
@@ -152,6 +153,14 @@ button {
     margin: 10%;
     padding-left: 30px;
 }
+.cameraman {
+    margin-top: 40px;
+margin-left: 40%;
+margin-right: 40%;
+}
+.position:hover button{
+    background-image: linear-gradient(blue, purple);
+}
 /* login styles */
 .body {
     background-image: url(image/Decor.png);
@@ -176,4 +185,13 @@ button {
 .info {
     margin: 10px;
     border-radius: 5px;
+}
+/* Youtube Video */
+.video {
+    margin-left: 5%; 
+    margin-right: 5%; 
+    margin-top: 50px;
+}
+.video-two {
+    margin-left: 50px;
 }
